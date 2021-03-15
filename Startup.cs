@@ -65,7 +65,7 @@ namespace Projekt
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapHub<UpdatesHub>("hubs/");
+                endpoints.MapHub<UpdatesHub>("hubs/updates");
             });
         }
     }
